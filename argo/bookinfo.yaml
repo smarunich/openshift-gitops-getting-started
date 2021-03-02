@@ -11,7 +11,7 @@ spec:
   source:
     directory:
       recurse: true
-    path: app
+    path: dev-bookinfo
     repoURL: https://github.com/siamaksade/openshift-gitops-getting-started.git
     targetRevision: main
   syncPolicy:
