@@ -1,0 +1,13 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: dev-bookinfo
+  name: dev-bookinfo
+spec:
+  port:
+    targetPort: 9080-tcp
+  to:
+    kind: Service
+    name: productpage
+    weight: 100
