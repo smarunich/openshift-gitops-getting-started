@@ -5,8 +5,6 @@ metadata:
     app: dev-bookinfo
   name: dev-bookinfo
 spec:
-  port:
-    targetPort: 9080-tcp
   to:
     kind: Service
     name: productpage
